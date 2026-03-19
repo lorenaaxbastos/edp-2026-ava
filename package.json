@@ -1,0 +1,11 @@
+{
+  "name": "edp-2026-ava",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "sass --watch src/scss:dist/css & live-server dist --host=0.0.0.0 --port=3000"
+  },
+  "devDependencies": {
+    "sass": "^1.60.0",
+    "live-server": "^1.2.1"
+  }
+}

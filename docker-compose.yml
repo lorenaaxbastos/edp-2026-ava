@@ -1,0 +1,9 @@
+name: edp-2026-ava
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
